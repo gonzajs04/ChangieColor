@@ -1,0 +1,48 @@
+html{
+  height: 100vh;
+}
+#root{
+  height: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #4242fc;
+  height: 100vh;
+}
+.container-background{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-card-color{
+  padding: 5rem 5rem;
+  background-color: rgb(233, 233, 233);
+  border-radius: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-color{
+  background-color: #4242fc;
+  border-radius: 20px;
+  height: 250px;
+  width: 300px;
+}
+.container-text-color p{
+  text-align: center;
+  font-size: 1.22rem;
+}
+.btn-change{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn-change input{
+
+  width: 100%;
+  border: none;
+  outline: none;
+  
+}
